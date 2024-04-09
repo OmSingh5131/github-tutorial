@@ -62,8 +62,16 @@ The subscript <sup> text </sup> is here.
 #### Code Block
 
 ```
-your code
+// ES5 syntax
+var multiply = function(x, y) {
+  return x * y;
+};
 
+// ES6 arrow function
+var multiply = (x, y) => { return x * y; };
+
+// Or even simpler
+var multiply = (x, y) => x * y;   
 ```
 
 #### Inline code Block
