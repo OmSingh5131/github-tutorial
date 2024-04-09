@@ -76,7 +76,9 @@ var multiply = (x, y) => x * y;
 
 #### Inline code Block
 
-your inline `code block` is here
+## Inline code Block
+
+JavaScript provides three different value comparison operations: strict equality using `===`, loose equality using `==`, and the `Object.is()` method.
 
 #### Code Highlighting Example
 
